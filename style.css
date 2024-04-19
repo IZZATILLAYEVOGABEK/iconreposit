@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root {
+    --facebook:#3b5999;
+    --telegram:#4bc1f6;
+    --instagram:#e1306c;
+    --youtube:#333333;
+    --github:#de463b;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    background-color: #dde2ec;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+    position: relative;
+}
+.icon {
+    width: 50px;
+    height: 50px;
+    background-color: #fff;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 50px;
+    font-size: 25px;
+    
+}
