@@ -32,5 +32,13 @@ a {
     text-align: center;
     line-height: 50px;
     font-size: 25px;
-    
+    box-shadow: 0 10px 10px #00000026;
+    position: relative;
+    z-index: 1;
+}
+/* tooltip */
+.tooltip {
+    background-color: transparent;
+    padding: 2px 12px 4px;
+    border-radius: 4px;
 }
